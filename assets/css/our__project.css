@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  color: #000;
+  font-weight: 700;
+  background-color: rgb(0, 0, 0);
+  -webkit-font-smooth: antialiased;
+}
+
+.logo {
+  margin: 25px 0;
+  text-align: center
+}
+
+.logo__text {
+  color: #fff;
+}
+
+.thread {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thread__items {
+  width: 33%;
+  height: 350px;
+  border-right: 5px solid #fff;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  overflow: hidden;
+}
+
+.thread__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.bearings {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bearings__items {
+  width: 49.5%;
+  height: 350px;
+  border-right: 5px solid #fff;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  overflow: hidden;
+}
+
+.bearings__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.cylinders {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cylinders__items {
+  width: 24.69%;
+  height: 350px;
+  border-right: 5px solid #fff;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  overflow: hidden;
+}
+
+.cylinders__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
